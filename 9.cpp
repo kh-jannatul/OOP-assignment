@@ -3,13 +3,14 @@ using namespace std;
 int main()
 {
     int n,i,sum=0;
-    cout<<"enter n:";
+    cout<<"enter positive number: ";
     cin>>n;
-    for(i=n;i>0;i--)
+
+    for(i=1;i<=n;++i)
     {
-        sum=sum+i;
+        sum=+i;
     }
-    cout<<"sum is: "<<sum<<endl;
+    cout<<"sum of numbers: "<<n<<endl;
     return 0;
 
 }
