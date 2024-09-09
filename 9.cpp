@@ -6,11 +6,11 @@ int main()
     cout<<"enter positive number: ";
     cin>>n;
 
-    for(i=1;i<=n;++i)
+    for(i=1;i<=n;i++)
     {
-        sum=+i;
+        sum=sum+i;
     }
-    cout<<"sum of numbers: "<<n<<endl;
+    cout<<"sum of numbers: "<<sum<<endl;
     return 0;
 
 }
